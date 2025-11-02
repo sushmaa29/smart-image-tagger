@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Image Tagger</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- TensorFlow.js core -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Smart Image Tagger</h1>
+    <p>Upload an image to see AI-generated tags instantly!</p>
+
+    <input type="file" id="imageUpload" accept="image/*" />
+    <div class="image-container">
+      <img id="preview" src="#" alt="Image Preview" style="display:none;" />
+      <div id="loader" class="loader" style="display:none;"></div>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ using JavaScript & TensorFlow.js</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
