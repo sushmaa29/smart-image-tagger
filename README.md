@@ -25,7 +25,7 @@ This project demonstrates how pre-trained deep learning models can be integrated
 
 ---
 
-## 🚀 How It Works
+##   How It Works
 1. Loads the **MobileNet** deep learning model from TensorFlow.js.  
 2. When an image is uploaded, it’s processed into tensors and classified.  
 3. Displays top predicted labels with confidence percentages.  
@@ -34,7 +34,7 @@ This project demonstrates how pre-trained deep learning models can be integrated
 
 ---
 
-## 💻 Run Locally
+##   Run Locally
 To run this project on your computer:
 ```bash
 # Clone the repository
@@ -45,7 +45,8 @@ cd smart-image-tagger
 
 # Run
 Open index.html in your web browser
-🧩 Future Improvements
+
+  Future Improvements
 
 🔹 Add live camera input for real-time detection.
 
@@ -55,11 +56,12 @@ Open index.html in your web browser
 
 🔹 Store detection results for analytics.
 
-🌱 Impact
+ Impact
 
 This project contributes to sustainable technology by promoting AI for environmental awareness, enabling object recognition and greenery analysis — reflecting the use of AI in climate and ecological applications.
 
-👩‍💻 Author
+  Author
 
 Sushma Koduri
-Built with ❤️ using JavaScript and TensorFlow.js
+
+Built with  using JavaScript and TensorFlow.js
